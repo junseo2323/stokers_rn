@@ -13,5 +13,5 @@ Stokers-RN는 React로 MVP를 개발한 웹을 React-native로 리팩토링+업�
   - **backend** : `python 3.9` `Django` `restApi`
     - **Database** : `sqplite3`
   - **frontend** : `React-native` 
-  - 
+  
 ## 🎸 뚱땅뚱땅 개발중

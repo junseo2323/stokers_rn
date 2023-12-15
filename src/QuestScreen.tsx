@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         marginRight: 30,
     },
     middlecontainer: {
-        marginTop: -30,
+        marginTop: 10,
         flexDirection: 'row',
         alignItems: 'baseline',
     },
@@ -28,13 +28,13 @@ const styles = StyleSheet.create({
     rightsmalltext: {
         fontFamily: 'NotoSansKR-Bold',
         fontSize: 16,
-        marginLeft: 90,
+        marginLeft: 120,
         color: '#F8FFD2',
     },
     secondsmalltext: {
         fontFamily: 'NotoSansKR-Light',
         fontSize: 16,
-        marginLeft: 184,
+        marginLeft: 200,
         color: '#fff',
     },
     middletext: {

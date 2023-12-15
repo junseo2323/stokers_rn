@@ -14,12 +14,15 @@ const styles = StyleSheet.create({
     },
     bigtext: {
         fontFamily: 'NotoSansKR-Bold',
+        fontWeight: 'bold',
+        marginTop: 10,
         color: 'white',
         fontSize: 32,
         height: 60,
     },
     middletext: {
         fontFamily: 'NotoSansKR-Bold',
+        fontWeight: 'bold',
         color: 'white',
         fontSize: 24,
     },
@@ -56,7 +59,7 @@ const styles = StyleSheet.create({
     ranklogo: {
         width: 20, 
         height: 20,
-        marginTop: 10,
+        marginBottom: 10,
         marginLeft: 10,
     },
     title: {
@@ -65,10 +68,13 @@ const styles = StyleSheet.create({
         marginRight: 12,
         marginLeft: 12,
         borderBottomColor: "black",
-        borderBottomWidth: 1
+        borderBottomWidth: 1,
+        paddingTop: 14,
+        marginBottom:10,
     },
     titletext: {
         fontFamily: 'NotoSansKR-Bold',
+        fontWeight: 'bold',
         color: "black",
         marginRight: 80,
     },
@@ -78,6 +84,7 @@ const styles = StyleSheet.create({
     ranktext: {
         flex: 1,
         fontFamily: 'NotoSansKR-Bold',
+        fontWeight: 'bold',
         color: "black",
         marginRight: 1,
         marginLeft: 15,
@@ -100,6 +107,7 @@ const styles = StyleSheet.create({
         backgroundColor: "#BEADFA",
         borderBottomLeftRadius: 16,
         borderBottomRightRadius: 16,
+        paddingTop: 7,
     }
     
 
@@ -141,6 +149,7 @@ const RankScreen = () => {
             <View style={styles.background}>
                 <Text style={styles.middletext}>퀘스트 랭크</Text>
             </View>
+            <ScrollView>
             <View style={styles.container}>     
                 <View style={styles.profile}>
                     <View>
@@ -179,6 +188,7 @@ const RankScreen = () => {
                     </View>
                 </View>
             </View>
+            </ScrollView>
         </>
     )
 }

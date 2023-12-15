@@ -15,23 +15,22 @@ const styles = StyleSheet.create({
     },
     smalltext: {
         fontFamily: 'NotoSansKR-Medium',
-        marginTop: -10,
-        marginBottom: -10,
+        marginTop: 10,
         fontSize: 16,
         color: 'white',
     },
     middletext: {
         fontFamily: 'NotoSansKR-Medium',
-        marginTop: -20,
-        marginBottom: -10,
+        marginTop: 10,
         fontSize: 28,
         color: 'white',
     },
     bigtext: {
         fontFamily: 'NotoSansKR-Bold',
+        fontWeight: 'bold',
+        marginTop: 10,
         fontSize: 36,
         color: 'white',
-        fontWeight: '900'
     },
     overlayImage: {
         position: 'absolute', // 절대 위치 설정
@@ -175,6 +174,7 @@ const MainScreen = ({navigation}: NavType) => {
           verticalVal.removeAllListeners();
         };
       }, [verticalVal]);
+
     return (
         <>
             <ScrollView>
